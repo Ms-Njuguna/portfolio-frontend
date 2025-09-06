@@ -11,10 +11,10 @@ const skills = [
 
 export default function Skills() {
     return (
-      <section id="skills" className="px-4 py-14 md:py-20 bg-slate-950">
+      <section id="skills" className="px-4 py-14 md:py-20 bg-yellow-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-extrabold">Skills</h2>
-          <p className="mt-2 text-slate-300 text-sm md:text-base">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-yellow-700">Skills</h2>
+          <p className="mt-2 text-yellow-50/50 text-sm md:text-base">
             Breadth across the stack with depth in frontend performance and API design.
           </p>
           <div className="mt-6 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-5">
