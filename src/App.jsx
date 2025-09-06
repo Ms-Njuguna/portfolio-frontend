@@ -1,9 +1,22 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
+import BugEasterEgg from './components/BugEasterEgg'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div>
-      <h1>This is my portfolio !</h1>
+      <Navbar />
+      <Hero />
+      <Projects />
+      <Skills />
+      <Contact />
+      <BugEasterEgg />
+      <Footer />
     </div>
   )
 }
