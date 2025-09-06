@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <>
-          <p>Here goes the final piece - the footer</p>
-        </>
+        <footer className="px-4 py-10 text-center text-xs text-slate-400">
+          © {new Date().getFullYear()} Ms_Njuguna — Built with React, Tailwind, Flask.
+        </footer>
     )
 }
